@@ -17,3 +17,13 @@ function isAdult(x) {
 }
 
 console.log("Exercise 2:", isAdult(22));
+
+function isCharAVowel(x) {
+  if ("a") {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log("Exercise 3:", isCharAVowel("a"));
