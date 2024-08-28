@@ -7,7 +7,7 @@ const maxOfTwoNumbers = (x, y) => {
 };
 
 console.log("Exercise 1:", maxOfTwoNumbers(3, 9));
-
+// Struggled here, figured out how to use if statement
 function isAdult(x) {
   if (x < 21) {
     return "minor";
@@ -31,5 +31,9 @@ console.log("Exercise 3:", isCharAVowel("a"));
 function generateEmail(x, y) {
   return x + y;
 }
-
 console.log("Exercise 4:", generateEmail("SuperMannyDonuts69", "@gmail.com"));
+
+let person = "Manny";
+let day = "Morning";
+
+console.log("Exercise 5:", `Good ${day}, ${person}!`);
