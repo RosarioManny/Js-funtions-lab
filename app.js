@@ -7,7 +7,7 @@ const maxOfTwoNumbers = (x, y) => {
 };
 
 console.log("Exercise 1:", maxOfTwoNumbers(3, 9));
-// Struggled here, figured out how to use if statement
+
 function isAdult(x) {
   if (x < 21) {
     return "minor";
@@ -37,3 +37,16 @@ let person = "Manny";
 let day = "Morning";
 
 console.log("Exercise 5:", `Good ${day}, ${person}!`);
+
+// console.log(Math.max(1, 69, 420));
+
+function maxOfThree(x, y, z) {
+  if (x > y && x > z) {
+    return x;
+  } else if (y > x && y > z) {
+    return y;
+  } else if (z > y && z > x) {
+    return z;
+  }
+}
+console.log("Exercise 6:", maxOfThree(3, 16, 69));
