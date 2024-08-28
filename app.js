@@ -27,3 +27,9 @@ function isCharAVowel(x) {
 }
 
 console.log("Exercise 3:", isCharAVowel("a"));
+
+function generateEmail(x, y) {
+  return x + y;
+}
+
+console.log("Exercise 4:", generateEmail("SuperMannyDonuts69", "@gmail.com"));
