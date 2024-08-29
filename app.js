@@ -1,4 +1,5 @@
-// Exercise 1 
+// Exercise 1
+
 const maxOfTwoNumbers = (x, y) => {
   if (x >= y) {
     return x;
@@ -10,6 +11,7 @@ const maxOfTwoNumbers = (x, y) => {
 console.log("Exercise 1:", maxOfTwoNumbers(3, 9));
 
 // Exercise 2
+
 function isAdult(x) {
   if (x < 21) {
     return "minor";
@@ -63,18 +65,12 @@ console.log("Exercise 6:", maxOfThree(3, 16, 69));
 
 // console.log(Math.max(1, 69, 420));
 
+function calculateTip(x, y) {
+  let billAmount = x;
+  const tipPercent = y / 100;
+  return billAmount * tipPercent;
+}
 
-// function calculateTip(x) {
-//   let billAmount = y;
-//   const tipPercent = x * (20 / 100);
-// }
-
-
-// console.log("Exercise 7:", calculateTip(50, 20));
+console.log("Exercise 7:", calculateTip(50, 20));
 
 // Exercise 8
-
-function convertTemp( {
-
-  convertTemp(32, 'C')
-}
