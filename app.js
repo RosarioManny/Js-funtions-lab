@@ -1,3 +1,4 @@
+// Exercise 1 
 const maxOfTwoNumbers = (x, y) => {
   if (x >= y) {
     return x;
@@ -8,6 +9,7 @@ const maxOfTwoNumbers = (x, y) => {
 
 console.log("Exercise 1:", maxOfTwoNumbers(3, 9));
 
+// Exercise 2
 function isAdult(x) {
   if (x < 21) {
     return "minor";
@@ -17,6 +19,8 @@ function isAdult(x) {
 }
 
 console.log("Exercise 2:", isAdult(22));
+
+// Exercise 3
 
 function isCharAVowel(x) {
   if ("a") {
@@ -28,17 +32,21 @@ function isCharAVowel(x) {
 
 console.log("Exercise 3:", isCharAVowel("a"));
 
+// Exercise 4
+
 function generateEmail(x, y) {
   return x + y;
 }
 console.log("Exercise 4:", generateEmail("SuperMannyDonuts69", "@gmail.com"));
+
+// Exercise 5
 
 let person = "Manny";
 let day = "Morning";
 
 console.log("Exercise 5:", `Good ${day}, ${person}!`);
 
-// console.log(Math.max(1, 69, 420));
+// Exercise 6
 
 function maxOfThree(x, y, z) {
   if (x > y && x > z) {
@@ -50,3 +58,23 @@ function maxOfThree(x, y, z) {
   }
 }
 console.log("Exercise 6:", maxOfThree(3, 16, 69));
+
+// Exercise 7
+
+// console.log(Math.max(1, 69, 420));
+
+
+// function calculateTip(x) {
+//   let billAmount = y;
+//   const tipPercent = x * (20 / 100);
+// }
+
+
+// console.log("Exercise 7:", calculateTip(50, 20));
+
+// Exercise 8
+
+function convertTemp( {
+
+  convertTemp(32, 'C')
+}
